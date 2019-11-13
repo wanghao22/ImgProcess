@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<opencv_storage>
+<DrawContours>
+  <name>DrawContours</name>
+  <type>1</type>
+  <suntype>0</suntype>
+  <Contour_Thre>40</Contour_Thre>
+  <Contour_Blur_Size>3</Contour_Blur_Size>
+  <Contour_Mode>0</Contour_Mode>
+  <Contour_Color_B>255.</Contour_Color_B>
+  <Contour_Color_G>84.</Contour_Color_G>
+  <Contour_Color_R>170.</Contour_Color_R>
+  <Contour_Thickness>2</Contour_Thickness></DrawContours>
+<DrawCvBox>
+  <name>DrawCvBox</name>
+  <type>1</type>
+  <suntype>1</suntype>
+  <CvBox_Thre>40</CvBox_Thre>
+  <CvBox_Blur_Size>3</CvBox_Blur_Size>
+  <CvBox_Mode>0</CvBox_Mode>
+  <CvBox_Color_B>255.</CvBox_Color_B>
+  <CvBox_Color_G>255.</CvBox_Color_G>
+  <CvBox_Color_R>0.</CvBox_Color_R>
+  <CvBox_Thickness>2</CvBox_Thickness></DrawCvBox>
+</opencv_storage>

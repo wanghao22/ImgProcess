@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<opencv_storage>
+<HoughCircleDect>
+  <name>HoughCircleDect</name>
+  <type>3</type>
+  <suntype>0</suntype>
+  <m_HouCir_Method>3</m_HouCir_Method>
+  <m_HouCir_Minr>90</m_HouCir_Minr>
+  <m_HouCir_Maxr>300</m_HouCir_Maxr>
+  <m_HouCir_Dp>2.</m_HouCir_Dp>
+  <m_HouCir_Mindist>1.</m_HouCir_Mindist>
+  <m_HouCir_Thre>80.</m_HouCir_Thre>
+  <m_HouCir_Vote>90.</m_HouCir_Vote>
+  <m_HouCir_Thickness>3</m_HouCir_Thickness>
+  <m_HouCir_Color_R>255.</m_HouCir_Color_R>
+  <m_HouCir_Color_G>0.</m_HouCir_Color_G>
+  <m_HouCir_Color_B>0.</m_HouCir_Color_B></HoughCircleDect>
+<MatchCircleDect>
+  <name>MatchCircleDect</name>
+  <type>3</type>
+  <suntype>1</suntype>
+  <m_MatCir_Cmin>20</m_MatCir_Cmin>
+  <m_MatCir_Cmax>80</m_MatCir_Cmax>
+  <m_MatCir_Thickness>3</m_MatCir_Thickness>
+  <m_MatCir_Degree>1.</m_MatCir_Degree>
+  <m_MatCir_Color_R>255.</m_MatCir_Color_R>
+  <m_MatCir_Color_G>10.</m_MatCir_Color_G>
+  <m_MatCir_Color_B>0.</m_MatCir_Color_B></MatchCircleDect>
+<EllipseDect>
+  <name>EllipseDect</name>
+  <type>3</type>
+  <suntype>2</suntype>
+  <m_Ellipse_Cmin>20</m_Ellipse_Cmin>
+  <m_Ellipse_Cmax>80</m_Ellipse_Cmax>
+  <m_Ellipse_Scale>5</m_Ellipse_Scale>
+  <m_Ellipse_Thickness>3</m_Ellipse_Thickness>
+  <m_Ellipse_Color_R>125.</m_Ellipse_Color_R>
+  <m_Ellipse_Color_G>234.</m_Ellipse_Color_G>
+  <m_Ellipse_Color_B>111.</m_Ellipse_Color_B></EllipseDect>
+<HoughLineDect>
+  <name>HoughLineDect</name>
+  <type>3</type>
+  <suntype>3</suntype>
+  <m_HouLine_Cmin>20</m_HouLine_Cmin>
+  <m_HouLine_Cmax>80</m_HouLine_Cmax>
+  <m_HouLine_P>0</m_HouLine_P>
+  <m_HouLine_Rho>1.</m_HouLine_Rho>
+  <m_HouLine_Theta>1.7453300000000001e-02</m_HouLine_Theta>
+  <m_HouLine_Thre>100</m_HouLine_Thre>
+  <m_HouLine_LineLen>50.</m_HouLine_LineLen>
+  <m_HouLine_LineGap>10.</m_HouLine_LineGap>
+  <m_HouLine_Thickness>3</m_HouLine_Thickness>
+  <m_HouLine_Color_R>255.</m_HouLine_Color_R>
+  <m_HouLine_Color_G>70.</m_HouLine_Color_G>
+  <m_HouLine_Color_B>60.</m_HouLine_Color_B></HoughLineDect>
+<MatchLineDect>
+  <name>MatchLineDect</name>
+  <type>3</type>
+  <suntype>4</suntype>
+  <m_MatLine_Cmin>20</m_MatLine_Cmin>
+  <m_MatLine_Cmax>80</m_MatLine_Cmax>
+  <m_MatLine_Dtype>7</m_MatLine_Dtype>
+  <m_MatLine_C>0.</m_MatLine_C>
+  <m_MatLine_Reps>1.0000000000000000e-02</m_MatLine_Reps>
+  <m_MatLine_Aeps>1.0000000000000000e-02</m_MatLine_Aeps>
+  <m_MatLine_Thickness>3</m_MatLine_Thickness>
+  <m_MatLine_Color_R>255.</m_MatLine_Color_R>
+  <m_MatLine_Color_G>97.</m_MatLine_Color_G>
+  <m_MatLine_Color_B>0.</m_MatLine_Color_B></MatchLineDect>
+<RectangleDect>
+  <name>RectangleDect</name>
+  <type>3</type>
+  <suntype>5</suntype>
+  <m_Rectangle_Thickness>3</m_Rectangle_Thickness>
+  <m_Rectangle_Cmin>20</m_Rectangle_Cmin>
+  <m_Rectangle_Cmax>80</m_Rectangle_Cmax>
+  <m_Rectangle_Minarea>1000.</m_Rectangle_Minarea>
+  <m_Rectangle_Maxcos>2.</m_Rectangle_Maxcos>
+  <m_Rectangle_Color_R>0.</m_Rectangle_Color_R>
+  <m_Rectangle_Color_G>255.</m_Rectangle_Color_G>
+  <m_Rectangle_Color_B>0.</m_Rectangle_Color_B></RectangleDect>
+<CrossDect>
+  <name>CrossDect</name>
+  <type>3</type>
+  <suntype>6</suntype>
+  <m_Cross_Cmin>20</m_Cross_Cmin>
+  <m_Cross_Cmax>80</m_Cross_Cmax>
+  <m_Cross_Rho>1.</m_Cross_Rho>
+  <m_Cross_Theta>1.7453292519943295e-02</m_Cross_Theta>
+  <m_Cross_Thre>50</m_Cross_Thre>
+  <m_Cross_Linlen>50.</m_Cross_Linlen>
+  <m_Cross_LineGap>10.</m_Cross_LineGap>
+  <m_Cross_Mindist>5.</m_Cross_Mindist>
+  <m_Cross_Mingap>5.</m_Cross_Mingap>
+  <m_Cross_Maxpix>2</m_Cross_Maxpix>
+  <m_Cross_Maxrot>1.0000000000000001e-01</m_Cross_Maxrot>
+  <m_Cross_Thickness>3</m_Cross_Thickness>
+  <m_Cross_Color_R>0.</m_Cross_Color_R>
+  <m_Cross_Color_G>255.</m_Cross_Color_G>
+  <m_Cross_Color_B>0.</m_Cross_Color_B></CrossDect>
+</opencv_storage>

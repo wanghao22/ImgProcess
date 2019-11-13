@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<opencv_storage>
+<Point2Point>
+  <name>Point2Point</name>
+  <type>4</type>
+  <suntype>0</suntype>
+  <m_pt2pt_ptS_X>50</m_pt2pt_ptS_X>
+  <m_pt2pt_ptS_Y>50</m_pt2pt_ptS_Y>
+  <m_pt2pt_ptE_X>51</m_pt2pt_ptE_X>
+  <m_pt2pt_ptE_Y>150</m_pt2pt_ptE_Y>
+  <m_pt2pt_AFlag>0</m_pt2pt_AFlag>
+  <m_pt2pt_Angle>60.</m_pt2pt_Angle></Point2Point>
+<Point2Line>
+  <name>Point2Line</name>
+  <type>4</type>
+  <suntype>1</suntype>
+  <m_pt2ln_ptS_X>50</m_pt2ln_ptS_X>
+  <m_pt2ln_ptS_Y>10</m_pt2ln_ptS_Y>
+  <m_pt2ln_lnS_X>50</m_pt2ln_lnS_X>
+  <m_pt2ln_lnS_Y>110</m_pt2ln_lnS_Y>
+  <m_pt2ln_lnE_X>100</m_pt2ln_lnE_X>
+  <m_pt2ln_lnE_Y>110</m_pt2ln_lnE_Y>
+  <m_pt2ln_AFlag>0</m_pt2ln_AFlag>
+  <m_pt2ln_Angle>60.</m_pt2ln_Angle></Point2Line>
+<Line2Line>
+  <name>Line2Line</name>
+  <type>4</type>
+  <suntype>2</suntype>
+  <m_ln2ln_lnSS_X>10</m_ln2ln_lnSS_X>
+  <m_ln2ln_lnSS_Y>0</m_ln2ln_lnSS_Y>
+  <m_ln2ln_lnSE_X>0</m_ln2ln_lnSE_X>
+  <m_ln2ln_lnSE_Y>10</m_ln2ln_lnSE_Y>
+  <m_ln2ln_lnES_X>20</m_ln2ln_lnES_X>
+  <m_ln2ln_lnES_Y>0</m_ln2ln_lnES_Y>
+  <m_ln2ln_lnEE_X>0</m_ln2ln_lnEE_X>
+  <m_ln2ln_lnEE_Y>20</m_ln2ln_lnEE_Y>
+  <m_ln2ln_Gap>2.</m_ln2ln_Gap></Line2Line>
+</opencv_storage>

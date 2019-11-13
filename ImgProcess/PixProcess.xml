@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<opencv_storage>
+<ThresholdProcess>
+  <name>ThresholdProcess</name>
+  <type>2</type>
+  <suntype>0</suntype>
+  <Threshold_Thre>40</Threshold_Thre>
+  <Threshold_Mode>0</Threshold_Mode></ThresholdProcess>
+<InverseProcess>
+  <name>InverseProcess</name>
+  <type>2</type>
+  <suntype>1</suntype></InverseProcess>
+<CannyProcess>
+  <name>CannyProcess</name>
+  <type>2</type>
+  <suntype>2</suntype>
+  <Canny_BlurSize>3</Canny_BlurSize>
+  <Canny_Ksize>3</Canny_Ksize>
+  <Canny_Min>30</Canny_Min>
+  <Canny_Max>100</Canny_Max>
+  <Canny_Gradient>0</Canny_Gradient></CannyProcess>
+<SobelProcess>
+  <name>SobelProcess</name>
+  <type>2</type>
+  <suntype>3</suntype>
+  <Sobel_Depth>3</Sobel_Depth>
+  <Sobel_Dx>1</Sobel_Dx>
+  <Sobel_Dy>1</Sobel_Dy>
+  <Sobel_Ksize>3</Sobel_Ksize>
+  <Sobel_Type>4</Sobel_Type>
+  <Sobel_Scale>1.</Sobel_Scale>
+  <Sobel_Delta>0.</Sobel_Delta></SobelProcess>
+<LaplaceProcess>
+  <name>LaplaceProcess</name>
+  <type>2</type>
+  <suntype>4</suntype>
+  <Laplace_Gusize>3</Laplace_Gusize>
+  <Laplace_Depth>3</Laplace_Depth>
+  <Laplace_Ksize>3</Laplace_Ksize>
+  <Laplace_Type>4</Laplace_Type>
+  <Laplace_Scale>1.</Laplace_Scale>
+  <Laplace_Delta>0.</Laplace_Delta></LaplaceProcess>
+<SubPixProcess>
+  <name>SubPixProcess</name>
+  <type>2</type>
+  <suntype>5</suntype>
+  <SubPix_Size>13</SubPix_Size>
+  <SubPix_AutoThreMode>1</SubPix_AutoThreMode>
+  <SubPix_AutoThreType>1</SubPix_AutoThreType>
+  <SubPix_AutoThreKsize>7</SubPix_AutoThreKsize>
+  <SubPix_C>4.</SubPix_C>
+  <SubPix_Color_R>255.</SubPix_Color_R>
+  <SubPix_Color_G>96.</SubPix_Color_G>
+  <SubPix_Color_B>0.</SubPix_Color_B></SubPixProcess>
+<DivisionByHSV>
+  <name>DivisionByHSV</name>
+  <type>2</type>
+  <suntype>6</suntype>
+  <H_min>0</H_min>
+  <S_min>0</S_min>
+  <V_min>46</V_min>
+  <H_max>180</H_max>
+  <S_max>43</S_max>
+  <V_max>255</V_max></DivisionByHSV>
+<DivisionByRGB>
+  <name>DivisionByRGB</name>
+  <type>2</type>
+  <suntype>7</suntype>
+  <R_min>60</R_min>
+  <G_min>60</G_min>
+  <B_min>60</B_min>
+  <R_max>255</R_max>
+  <G_max>255</G_max>
+  <B_max>255</B_max></DivisionByRGB>
+<DivisionByGray>
+  <name>DivisionByGray</name>
+  <type>2</type>
+  <suntype>8</suntype>
+  <Gray_Case>6</Gray_Case>
+  <Gray_Min>0</Gray_Min>
+  <Gray_Max>255</Gray_Max></DivisionByGray>
+</opencv_storage>

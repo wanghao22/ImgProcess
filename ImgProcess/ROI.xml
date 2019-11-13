@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<opencv_storage>
+<Circle>
+  <name>CircleROI</name>
+  <type>0</type>
+  <suntype>0</suntype>
+  <Circle_Center_X>500</Circle_Center_X>
+  <Circle_Center_Y>250</Circle_Center_Y>
+  <Circle_Radius>200</Circle_Radius>
+  <Circle_Division>0</Circle_Division>
+  <Circle_Resize_Widht>300</Circle_Resize_Widht>
+  <Circle_Resize_Height>300</Circle_Resize_Height></Circle>
+<Annulus>
+  <name>AnnulusROI</name>
+  <type>0</type>
+  <suntype>1</suntype>
+  <Annulus_Center_X>500</Annulus_Center_X>
+  <Annulus_Center_Y>250</Annulus_Center_Y>
+  <Annulus_Radius_Min>150</Annulus_Radius_Min>
+  <Annulus_Radius_Max>200</Annulus_Radius_Max>
+  <Annulus_Division>0</Annulus_Division>
+  <Annulus_Resize_Widht>300</Annulus_Resize_Widht>
+  <Annulus_Resize_Height>300</Annulus_Resize_Height></Annulus>
+<Rectangl>
+  <name>RectanglROI</name>
+  <type>0</type>
+  <suntype>2</suntype>
+  <Rectangl_Rect_X>400</Rectangl_Rect_X>
+  <Rectangl_Rect_Y>150</Rectangl_Rect_Y>
+  <Rectangl_Rect_Width>200</Rectangl_Rect_Width>
+  <Rectangl_Rect_Height>200</Rectangl_Rect_Height>
+  <Rectangl_Division>0</Rectangl_Division>
+  <Rectangl_Resize_Widht>0</Rectangl_Resize_Widht>
+  <Rectangl_Resize_Height>0</Rectangl_Resize_Height></Rectangl>
+<Ring>
+  <name>RingROI</name>
+  <type>0</type>
+  <suntype>3</suntype>
+  <Ring_Rect_Min_X>300</Ring_Rect_Min_X>
+  <Ring_Rect_Min_Y>100</Ring_Rect_Min_Y>
+  <Ring_Rect_Min_Width>300</Ring_Rect_Min_Width>
+  <Ring_Rect_Min_Height>300</Ring_Rect_Min_Height>
+  <Ring_Rect_Max_X>400</Ring_Rect_Max_X>
+  <Ring_Rect_Max_Y>200</Ring_Rect_Max_Y>
+  <Ring_Rect_Max_Width>100</Ring_Rect_Max_Width>
+  <Ring_Rect_Max_Height>100</Ring_Rect_Max_Height>
+  <Ring_Division>0</Ring_Division>
+  <Ring_Resize_Widht>0</Ring_Resize_Widht>
+  <Ring_Resize_Height>0</Ring_Resize_Height></Ring>
+<Ellipse>
+  <name>EllipseROI</name>
+  <type>0</type>
+  <suntype>4</suntype>
+  <Ellipse_Angle>45.</Ellipse_Angle>
+  <Ellipse_Center_X>500.</Ellipse_Center_X>
+  <Ellipse_Center_Y>250.</Ellipse_Center_Y>
+  <Ellipse_Size_Width>200.</Ellipse_Size_Width>
+  <Ellipse_Size_Height>100.</Ellipse_Size_Height>
+  <Ellipse_Division>0</Ellipse_Division>
+  <Ellipse_Resize_Widht>300</Ellipse_Resize_Widht>
+  <Ellipse_Resize_Height>300</Ellipse_Resize_Height></Ellipse>
+<RotateRect>
+  <name>RotateRectROI</name>
+  <type>0</type>
+  <suntype>5</suntype>
+  <RotateRect_Angle>40.</RotateRect_Angle>
+  <RotateRect_Center_X>500.</RotateRect_Center_X>
+  <RotateRect_Center_Y>250.</RotateRect_Center_Y>
+  <RotateRect_Size_Width>100.</RotateRect_Size_Width>
+  <RotateRect_Size_Height>200.</RotateRect_Size_Height>
+  <RotateRect_Division>0</RotateRect_Division>
+  <RotateRect_Resize_Widht>300</RotateRect_Resize_Widht>
+  <RotateRect_Resize_Height>300</RotateRect_Resize_Height></RotateRect>
+<Polygon>
+  <name>PolygonROI</name>
+  <type>0</type>
+  <suntype>6</suntype>
+  <Polygon_X>
+    100 255 400</Polygon_X>
+  <Polygon_Y>
+    50 50 150</Polygon_Y>
+  <Polygon_Division>0</Polygon_Division>
+  <Polygon_Resize_Widht>0</Polygon_Resize_Widht>
+  <Polygon_Resize_Height>0</Polygon_Resize_Height></Polygon>
+</opencv_storage>
