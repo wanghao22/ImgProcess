@@ -59,7 +59,7 @@ public:
 	int m_Threshold_Thre, m_Threshold_Mode;
 	//m_Canny_
 	int m_Canny_BlurSize, m_Canny_Min, m_Canny_Max, m_Canny_Ksize;
-	bool m_Canny_Gradient;//是否采用更精确的方式计算图像梯度
+	BOOL m_Canny_Gradient;//是否采用更精确的方式计算图像梯度
 	//m_Sobel_
 	int m_SobelDepth, m_SobelDx, m_SobelDy, m_SobelKsize, m_SobelType;
 	double m_SobelScale, m_SobelDelta;

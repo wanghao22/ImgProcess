@@ -28,11 +28,11 @@ public:
 	int m_Annulus_Y;//--圆环Y点--
 	int m_Annulus_Rmax;//--圆环内圆半径--
 	int m_Annulus_Rmin;//--圆环外圆半径--
-	double m_Ellipse_A;//--椭圆旋转角度--
-	int m_Ellipse_H;//--椭圆高度--
-	int m_Ellipse_W;//--椭圆宽度--
-	int m_Ellipse_X;//--椭圆中心X点--
-	int m_Ellipse_Y;//--椭圆中心Y点--
+	float m_Ellipse_A;//--椭圆旋转角度--
+	float m_Ellipse_H;//--椭圆高度--
+	float m_Ellipse_W;//--椭圆宽度--
+	float m_Ellipse_X;//--椭圆中心X点--
+	float m_Ellipse_Y;//--椭圆中心Y点--
 	int m_Rect_H;//--矩形高度--
 	int m_Rect_W;//--矩形宽度--
 	int m_Rect_X;//--矩形左上角X点--
@@ -45,11 +45,11 @@ public:
 	int m_Ring_Xmax;//--大矩形左上角X点--
 	int m_Ring_Ymin;//--小矩形左上角Y点--
 	int m_Ring_Ymax;//--大矩形左上角Y点--
-	double m_Rotate_A;//--旋转矩形角度--
-	int m_Rotate_H;//--旋转矩形高度--
-	int m_Rotate_W;//--旋转矩形宽度--
-	int m_Rotate_X;//--旋转矩形中心X点--
-	int m_Rotate_Y;//--旋转矩形中心Y点--
+	float m_Rotate_A;//--旋转矩形角度--
+	float m_Rotate_H;//--旋转矩形高度--
+	float m_Rotate_W;//--旋转矩形宽度--
+	float m_Rotate_X;//--旋转矩形中心X点--
+	float m_Rotate_Y;//--旋转矩形中心Y点--
 	ROI m_roi;//--存储当前ROI参数--
 	void LoadXML();//--加载数据--
 	afx_msg void OnBnClickedChangeRoi();//--修改参数--

@@ -4,7 +4,7 @@
 void putText::GetStringSize(HDC hDC, const char* str, int* w, int* h)
 {
 	SIZE size;
-	GetTextExtentPoint32A(hDC, str, strlen(str), &size);
+	GetTextExtentPoint32A(hDC, str, static_cast<int>(strlen(str)), &size);
 	if (w != 0) *w = size.cx;
 	if (h != 0) *h = size.cy;
 }
@@ -105,12 +105,12 @@ void putText::putTextZH(Mat &dst, const char* str, Point org, Scalar \
 	int outTextY = 0;
 	while (ln != 0)
 	{
-		TextOutA(hDC, 0, outTextY, ln, strlen(ln));
+		TextOutA(hDC, 0, outTextY, ln, static_cast<int>(strlen(ln)));
 		outTextY += singleRow;
 		ln = strtok_s(0, "\n", bufT);
 	}
 	uchar* dstData = (uchar*)dst.data;
-	int dstStep = dst.step / sizeof(dstData[0]);
+	int dstStep = static_cast<int>(dst.step / sizeof(dstData[0]));
 	unsigned char* pImg = (unsigned char*)dst.data + org.x * dst.channels() + org.y * dstStep;
 	unsigned char* pStr = (unsigned char*)pDibData + x * 3;
 	for (int tty = y; tty <= b; ++tty)
@@ -121,7 +121,7 @@ void putText::putTextZH(Mat &dst, const char* str, Point org, Scalar \
 		{
 			for (int n = 0; n < dst.channels(); ++n) {
 				double vtxt = subStr[n] / 255.0;
-				int cvv = vtxt * color.val[n] + (1 - vtxt) * subImg[n];
+				int cvv = static_cast<int>(vtxt * color.val[n] + (1 - vtxt) * subImg[n]);
 				subImg[n] = cvv > 255 ? 255 : (cvv < 0 ? 0 : cvv);
 			}
 

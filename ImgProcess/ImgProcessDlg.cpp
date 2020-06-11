@@ -297,8 +297,8 @@ void CImgProcessDlg::OnBnClickedLoadImg()
 	if (ext == "xml")
 		ReadFromXML(picpath, m_src);
 	else
-		m_src = imread(picpath);
-	//m_src = imread(picpath);
+		m_src = imread(picpath, -1);
+	//m_src = imread(picpath, -1);
 	Show_Image(m_src, IDC_SHOW_IMG);
 	m_dsts.clear();
 	while (m_MsgList.GetCount() != 0)
@@ -775,7 +775,7 @@ void CImgProcessDlg::OnBnClickedSaveImg()
 		save = m_src.clone();
 	else
 	{
-		int index = m_dsts.size() - 1;
+		int index = static_cast<int>(m_dsts.size() - 1);
 		save = m_dsts[index].clone();
 	}
 	CString picPath;
@@ -809,8 +809,8 @@ void CImgProcessDlg::OnBnClickedSaveImg()
 	}
 	catch (const std::exception& ex)
 	{
-		//AfxMessageBox(CString(ex.what()));
-		AfxMessageBox(L"在这里输入你想改的信息");
+		AfxMessageBox(CString(ex.what()));
+		//AfxMessageBox(L"在这里输入你想改的信息");
 	}
 	catch (...)
 	{
@@ -844,7 +844,7 @@ void CImgProcessDlg::OnSize(UINT nType, int cx, int cy)
 	GetClientRect(&m_wndRect);
 	if (init_flag && !m_src.empty())
 	{
-		int index = m_dsts.size() - 1;
+		int index = static_cast<int>(m_dsts.size() - 1);
 		if (index >= 0)
 			Show_Image(m_dsts[index], IDC_SHOW_IMG);
 		else
@@ -957,7 +957,7 @@ void CImgProcessDlg::OnDropFiles(HDROP hDropInfo)
 		::DragQueryFile(hDropInfo, i, szFileName, _MAX_PATH);
 		//char str[_MAX_PATH]; sprintf_s(str, "%hs", szFileName);
 		string str = CW2A(szFileName);
-		m_src = imread(str);
+		m_src = imread(str, -1);
 		if (!m_src.empty())
 		{
 			Show_Image(m_src, IDC_SHOW_IMG);

@@ -49,11 +49,11 @@ public:
 	int __stdcall LoadXML(char* filename);
 	//m_pt2pt_
 	CvPoint m_pt2pt_ptS, m_pt2pt_ptE;
-	bool m_pt2pt_AFlag;
+	BOOL m_pt2pt_AFlag;
 	double m_pt2pt_Angle, m_pt2pt_Result;
 	//m_pt2ln_
 	CvPoint m_pt2ln_ptS, m_pt2ln_lnS, m_pt2ln_lnE;
-	bool m_pt2ln_AFlag;
+	BOOL m_pt2ln_AFlag;
 	double m_pt2ln_Angle, m_pt2ln_Result;
 	//m_ln2ln_
 	CvPoint m_ln2ln_lnSS, m_ln2ln_lnSE, m_ln2ln_lnES, m_ln2ln_lnEE;

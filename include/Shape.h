@@ -66,7 +66,7 @@ public:
 	cv::Scalar m_Ellipse_Color;
 	//m_HouLine_
 	int m_HouLine_Cmin, m_HouLine_Cmax;
-	bool m_HouLine_P;
+	BOOL m_HouLine_P;
 	double m_HouLine_Rho, m_HouLine_Theta;
 	int m_HouLine_Thre, m_HouLine_Thickness;
 	double m_HouLine_LineLen, m_HouLine_LineGap;
